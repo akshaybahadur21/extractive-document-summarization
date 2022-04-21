@@ -47,3 +47,16 @@ python test.py
 | Ground Truth Summary           | Model Generated Summary       | 
 | ----------------|:-------------:| 
 | "Rice was named the game’s most valuable player. Joe Mon- tana’s 10-yard touchdown pass to John Taylor with 34 seconds left provided the winning margin. The victory was achieved through the brilliance of Montana and Jerry Rice, the wide receiver who caught 12 passes for 222 yards, both Super Bowl records. In a dramatic finish, the San Francisco 49ers football team won the Su- per Bowl on Sunday with a 20- 16 victory over the Cincinnati Bengals. The winning score came at the end of a 92-yard drive, engineered by Montana, whose touchdown pass gave him a Su- per Bowl record with 357 yards passing." | "The San Francisco 49ers won the Super Bowl Sunday with a dramatic 20-16 victory over the Cincinnati Bengals. Joe Mon- tana’s 10-yard touchdown pass to John Taylor with 34 seconds remaining provided the win. The pass gave Montana a Super Bowl record with 357 yards passing. The victory was achieved through the brilliance of Montana and Jerry Rice, the wide receiver who caught 12 passes for 222 yards, both Super Bowl records. Rice was named the game’s most valuable player. It was the fifth straight win for a National Foot- ball Conference team and the third Super Bowl win for Coach Bill." | 
+
+
+
+Commands
+
+`conda create --name env1 --file requirements.txt`
+
+`conda activate env1`
+
+`pip install pyrouge `
+
+`pyrouge_set_rouge_path /global/pathto/extractive-document-summarization/preprocessing/pyrouge/tools/ROUGE-1.5.5/`
+
